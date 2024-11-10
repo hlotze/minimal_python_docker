@@ -8,7 +8,9 @@ Based on the Youtube video from Christian Lempa [Docker VSCode Python Tutorial /
 print("Hello World! - from Docker")
 ```
 
-> > docker run --rm hagen25081998/hello_from_docker
+
+> docker run --rm hagen25081998/hello_from_docker
+>
 > Hello World! - from Docker
 
 ## Prerequisites
