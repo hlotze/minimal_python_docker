@@ -29,7 +29,7 @@ I prepare everything, as descriped by [Youtube: Docker VSCode Python Tutorial //
 
 At the prompt
 ``` shell
-minimal_python_docker
+minimal_python_docker/
 |
 |-- .dockerignore
 |-- .gitignore
