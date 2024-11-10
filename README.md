@@ -8,6 +8,10 @@ Based on the Youtube video from Christian Lempa [Docker VSCode Python Tutorial /
 print("Hello World! - from Docker")
 ```
 
+```Python
+> docker run --rm hagen25081998/hello_from_docker
+Hello World! - from Docker
+
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
@@ -23,7 +27,7 @@ I prepare everything, as descriped by [Youtube: Docker VSCode Python Tutorial //
 ## Build and run the Docker image
 
 At the prompt
-``` shell
+```Python
 minimal_python_docker
 |
 |-- .dockerignore
@@ -44,7 +48,7 @@ pipenv --python 3.12
 
 Will give you:
 
-```shell
+```shell no-copy
 > more Pipfile
 [[source]]
 url = "https://pypi.org/simple"
