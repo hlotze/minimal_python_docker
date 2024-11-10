@@ -4,11 +4,11 @@
 
 Based on the Youtube video from Christian Lempa [Docker VSCode Python Tutorial // Run your App in a Container](https://www.youtube.com/watch?v=jtBVppyfDbE&t=634s) I just did as described and build my first service from a short Python script runing in a Docker container - it is just a Hello World:
 
-```Python
+``` Python
 print("Hello World! - from Docker")
 ```
 
-```Python
+``` Python
 > docker run --rm hagen25081998/hello_from_docker
 Hello World! - from Docker
 
@@ -27,7 +27,7 @@ I prepare everything, as descriped by [Youtube: Docker VSCode Python Tutorial //
 ## Build and run the Docker image
 
 At the prompt
-```Python
+``` Python
 minimal_python_docker
 |
 |-- .dockerignore
