@@ -8,20 +8,6 @@ Based on the Youtube video from Christian Lempa [Docker VSCode Python Tutorial /
 print("Hello World! - from Docker")
 ```
 
-<<<<<<< HEAD
-When calling, you will get:
-```shell
-> docker run --rm hagen25081998/hello_from_docker
-
-Hello World! - from Docker
-```
-=======
-
-> docker run --rm hagen25081998/hello_from_docker
->
-> Hello World! - from Docker
-
->>>>>>> 41b8f67606f1c926d7fd25ff7999da1ccda91463
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
