@@ -1,4 +1,4 @@
-# Minimal Python Docker image
+# Minimal Python Docker image - "Hello World!"
 
 (With this, I just summarized for myself: How I proceed with this short session.)
 
@@ -8,9 +8,12 @@ Based on the Youtube video from Christian Lempa [Docker VSCode Python Tutorial /
 print("Hello World! - from Docker")
 ```
 
-> > docker run --rm hagen25081998/hello_from_docker
-> Hello World! - from Docker
+When calling, you will get:
+```shell
+> docker run --rm hagen25081998/hello_from_docker
 
+Hello World! - from Docker
+```
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
@@ -63,10 +66,14 @@ python_version = "3.12"
 ```
 
 
-1. Go to the terminal at directory _minimal_python_docker_ and build a new docker image:
+1. Go to the terminal at directory _minimal_python_docker_ and build a new docker image, that image will be of the platform of your host (arm64 or amd64).
+
     ``` shell
-    docker tag hello_from_docker . 
+    > docker tag hello_from_docker . 
     ```
+    Actually **_no_** _multiplatfrom_, for **_Multiplatform_** images amd64 + arm64, see _Docker Docs_: [Multi-platform builds](https://docs.docker.com/build/building/multi-platform/).
+
+
 2. run the new docker image
     ``` shell
     docker run --rm hello_from_docker
