@@ -4,16 +4,24 @@
 
 Based on the Youtube video from Christian Lempa [Docker VSCode Python Tutorial // Run your App in a Container](https://www.youtube.com/watch?v=jtBVppyfDbE&t=634s) I just did as described and build my first service from a short Python script runing in a Docker container - it is just a Hello World:
 
-```Python
+``` Python
 print("Hello World! - from Docker")
 ```
 
+<<<<<<< HEAD
 When calling, you will get:
 ```shell
 > docker run --rm hagen25081998/hello_from_docker
 
 Hello World! - from Docker
 ```
+=======
+
+> docker run --rm hagen25081998/hello_from_docker
+>
+> Hello World! - from Docker
+
+>>>>>>> 41b8f67606f1c926d7fd25ff7999da1ccda91463
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
@@ -29,8 +37,13 @@ I prepare everything, as descriped by [Youtube: Docker VSCode Python Tutorial //
 ## Build and run the Docker image
 
 At the prompt
+<<<<<<< HEAD
 ``` shell
 minimal_python_docker/
+=======
+``` Python
+minimal_python_docker
+>>>>>>> 41b8f67606f1c926d7fd25ff7999da1ccda91463
 |
 |-- .dockerignore
 |-- .gitignore
@@ -50,7 +63,7 @@ pipenv --python 3.12
 
 Will give you:
 
-```shell
+```shell no-copy
 > more Pipfile
 [[source]]
 url = "https://pypi.org/simple"
