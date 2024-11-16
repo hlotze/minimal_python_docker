@@ -23,13 +23,8 @@ I prepare everything, as descriped by [Youtube: Docker VSCode Python Tutorial //
 ## Build and run the Docker image
 
 At the prompt
-<<<<<<< HEAD
 ``` shell
 minimal_python_docker/
-=======
-``` Python
-minimal_python_docker
->>>>>>> 41b8f67606f1c926d7fd25ff7999da1ccda91463
 |
 |-- .dockerignore
 |-- .gitignore
@@ -131,13 +126,3 @@ e.g.
 docker run <account>/hello_from_docker
 ```
 
-## Directly run my hello_from_docker image
-
-```shell
- docker run --rm hagen25081998/hello_from_docker
- ```
-you will get 
-``` shell
-> docker run --rm hagen25081998/hello_from_docker
-Hello World! - from Docker
-```
